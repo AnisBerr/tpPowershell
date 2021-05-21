@@ -43,7 +43,7 @@ L'utilisateur devra ensuite entrer les informations de chaque utilisateur.
 Les utilisateurs sont ajoutés au fur et à mesure.
 Les informations sont ensuite exportées au format csv.
 
-![alt text](./tp01.png "Tp01")
+![alt text](./screen/tp01.png "Tp01")
 
 
 Il est possible d'améliorer grandement l'utilisation du script en faisant plusieurs choses:
@@ -73,4 +73,4 @@ Tâche qui éxécute powershell avec comme argument le script déjà créé.
 
 On vérifie bien que la stratégie s'effectue bien sur formation.local, sur les utilisateurs et machines connectées au domaine.
 
-![alt text](./tp04.png "Tp01")
+![alt text](./screen/tp04.png "Tp01")
