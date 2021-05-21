@@ -1,5 +1,5 @@
 
-# Prémabules pour les TP suivants:
+# Prémabule pour les TP suivants:
 
 1 windows server 2019 
 1 windows 10 PRO dit "client"
