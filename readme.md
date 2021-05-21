@@ -34,6 +34,8 @@ hostname: cli01
 Le poste communique bien avec SERVEUR et vice-versa.
 Le poste est connecté à formation.local.
 
+![alt text](./screen/ping.png "Config cli01")
+
 ## TP01
 
 Le script `utilisateurs.ps1` créé doit être éxecuté via powershell.
@@ -59,11 +61,15 @@ Le script `save.ps1` doit être éxecuté depuis powershell.
 Il sauvegarde les process en cours dans un fichier txt avant de le copier dans un dossier partagé.
 Le dossier à partager se trouve dans `C:\Sauvegarde\Process\` et est paramétré pour pouvoir être lu si la requête se trouve dans le même réseau. La machine cli01 à été ajoutée aux exceptions depuis les propriétés.
 
+![alt text](./screen/save.png "script save")
+
 ## TP03
 
 Dans le planificateur de tâches on créé une tâche récursive qui déclenche tous les jours à 17h qui lance une instance de powershell avec comme argument le script de sauvegarde.
 
 Ainsi, tous les jours à 17h, notre script est éxecuté et la sauvegarde effectuée.
+
+![alt text](./screen/tache.png "Mise a jour planifiée")
 
 ## TP04
 
@@ -73,4 +79,4 @@ Tâche qui éxécute powershell avec comme argument le script déjà créé.
 
 On vérifie bien que la stratégie s'effectue bien sur formation.local, sur les utilisateurs et machines connectées au domaine.
 
-![alt text](./screen/tp04.png "Tp01")
+![alt text](./screen/tp04.png "GPO")
