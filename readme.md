@@ -4,7 +4,7 @@
 1 Windows server 2019 
 1 Windows 10 PRO dit "client"
 
-Configuration windows server 2019:
+### Configuration windows server 2019:
 
 hostname: SERVEUR
 
@@ -18,7 +18,7 @@ hostname: SERVEUR
 1 compte utilisateur et 1 administrateur.
 L'ADDS est installé et configuré (forêt formation.local).
 
-Configuration windows 10 PRO:
+### Configuration windows 10 PRO:
 
 hostname: cli01
 
